@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	//"go-middleware/middleware/mysql"
+	"go-middleware/middleware/redis"
+)
 
 func main() {
-	fmt.Print("hello world")
+	//mysql.Demo()
+	redis.Get()
 }
